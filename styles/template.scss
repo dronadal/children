@@ -5,7 +5,7 @@
 
 
 /*
-make boxes with images and link 
+make boxes with images and link same size
 
 include footer 
 link and buttons
@@ -49,3 +49,11 @@ img {
 
 .thumbnail {border-color: #ff9933}
 
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e65c00;
+    border-color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {color: black;}
