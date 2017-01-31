@@ -1,0 +1,53 @@
+@import url(bootstrap.min.css);
+@import url(ie10-viewport-bug-workaround.css);
+@import url(jumbotron.css);
+/*
+make boxes with images and link 
+
+include footer 
+link and buttons
+buttons issue
+
+*/
+.orange {
+  background-color: #ff9933;
+  border-color: #ff9933; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+.navbar-inverse .navbar-brand {
+  color: white; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #e65c00; }
+
+.btn-primary {
+  background-color: #ff9933;
+  border-color: white; }
+
+.jumbotron {
+  background-color: white; }
+
+img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto; }
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 0; } }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #e65c00; }
+
+.navbar-inverse .navbar-toggle {
+  background-color: #ff9933;
+  border-color: white; }
+
+.thumbnail {
+  border-color: #ff9933; }
+
+/*# sourceMappingURL=template.css.map */
