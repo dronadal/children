@@ -56,6 +56,11 @@ img {
   border-color: white; }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-  color: black; }
+  color: #ffd699; }
+
+.divimg {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px; }
 
 /*# sourceMappingURL=template.css.map */
