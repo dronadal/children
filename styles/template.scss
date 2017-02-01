@@ -8,6 +8,7 @@
 make boxes with images and link same size!
 buttons to pages
 click on buttons color
+images in board cdenter
 
 */
 
@@ -120,3 +121,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.ok {max-height: 250px; max-width: 250px; margin-bottom: 10px     ;display: block;
+    margin-left: auto;
+    margin-right: auto; }
