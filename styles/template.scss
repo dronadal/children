@@ -5,11 +5,9 @@
 
 
 /*
-make boxes with images and link same size
-
-include footer 
-link and buttons
-buttons issue
+make boxes with images and link same size!
+buttons to pages
+click on buttons color
 
 */
 
@@ -23,7 +21,7 @@ buttons issue
 .navbar-inverse .navbar-brand {color: white;}
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover 
-{background-color: #e65c00;}
+{background-color: #e65c00; color: white;}
 
 .btn-primary {background-color:  #ff9933
 ; border-color:  white
@@ -61,3 +59,64 @@ img {
 
 .divimg {
     padding-left: 10px; padding-top: 10px; padding-right: 10px;}
+
+footer {background-color:  #ff9933; color: white;}
+
+.card-block {margin-bottom: 40px;}
+
+.col-xs-3 {float: right;}
+
+.aid {margin-bottom: 10px;} 
+
+.oranget {color: #ff9933; padding-bottom: 20px;}
+
+.orangettt {color: #ff9933; align: center;}
+
+.card-header {color: #ff9933;}
+
+.house {float: right;}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #ff9933;
+	border-color:  white
+;}
+
+a:focus, a:hover {
+    color: #ffd699;}
+
+.nav-link {color: black;}
+
+.active {background-color: #ff9933; color: white;}
+
+#active {color: white;}
+
+.change {padding-bottom: 2px;}
+
+.card {margin-bottom: -10px;}
+
+tr.spaceUnder > td {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+table, th, td {
+    border-top: 0.10em solid #ffa13d;
+    border-left: none;
+    border-right: none;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
