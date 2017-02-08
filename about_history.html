@@ -21,7 +21,7 @@
 
   <body>
 
-    <nav class="orange navbar navbar-inverse navbar-fixed-top">
+   <nav class="orange navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,13 +34,27 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index.html">Home</a></li>
-            <li class=""><a href="about.html">About Us</a></li>
-            <li><a href="what_we_offer.html">What We Offer</a></li>
-            <li><a href="clients.html">Our Clients</a></li>
-            <li><a href="get_involved.html">Get Involved</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+                      <li class=""><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="about_us.html">Who We Are</a></li>
+                <li><a href="about_history.html">Our History</a></li>
+                <li><a href="about_timeline.html">Historic Timeline</a></li>
+                <li><a href="about_board.html">Board Members</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="what_we_offer.html">What We Offer</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Clients<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="clients_gallery.html">Photo Gallery</a></li>
+                <li><a href="clients_testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="get_involved.html">Get Involved</a></li>
+            <li class=""><a href="calendar.html">Calendar</a></li>
+            <li class=""><a href="contact.html">Contact Us</a></li>
           </ul>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Sign Up</a></button></p>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Volunteer</a></button></p>
@@ -60,27 +74,8 @@
 
     <div class="container">
       <div class="row">
-      <div class="col-xs-3">
-    <ul class="nav">
-  <li class="nav aid">
-    <a class="nav-link" href="about_us.html">Who We Are</a>
-  </li>
-  <li class="nav-item aid active">
-    <a class="nav-link" id="active" href="about_history.html">Our History</a>
-  </li>
-  <li class="nav-item aid">
-    <a class="nav-link" href="about_timeline.html">History Timeline</a>
-  </li>
-  <li class="nav-item aid">
-    <a class="nav-link" href="about_board.html">Board Members</a>
-  </li>
-    <li class="nav-item aid">
-    <a class="nav-link" href="about_contact.html">Contact Us</a>
-  </li>
-</ul>
-</div>
   <h4 class="center oranget">History of the Children’s Dispensary & Hospital Association, Inc</h4>
-  <div class="row col-xs-8 center">
+  <div class="row col-xs-7 col-md-9 center">
   <p>The Children’s Dispensary & Hospital Association began in 1909 as a free dispensary to serve the needs of undernourished children in South Bend. Community support, both financially and through volunteerism, allowed the Children’s Dispensary to expand its care to address the medical needs of the community’s children.</p>
   <p>By 1919 the Dispensary was open year round and held clinics twice weekly with physicians who donated their service. An orthopedic department was established in 1920. Other clinics including dental, eye, ear, nose & throat were also added. During the 1930’s the care increased with the spread of Polio.</p>
   <p>With the building of the Northern Indiana Children’s State Hospital in 1947, the orthopedic and physical therapy clinics moved away from Children’s Dispensary & Hospital. By 1966 the medical and dental operations went to St. Joseph and Memorial Hospitals.</p>
@@ -88,17 +83,17 @@
   <p>As a small, yet vital nonprofit organization, the Children’s Dispensary has served the community through progressive and challenging programs for over 100 years. Through generous community support and volunteerism, the organization’s programs and services have evolved through the decades as the needs of the community have evolved. We remain true to our mission: Enhance the learning and enrich the lives of children with special needs.</p>
 </div>
 </div>
+</div>
+</div>
       <!-- Example row of columns -->
 
       <hr>
-
       <footer class="text-center">
         <p>2015 W. Western Ave, Ste 233. South Bend, IN 46619 
         <br>Phone: 574-234-1169     Fax: 574-234-1160
         <br>Email: info@childrensdispensary.org</p>
         <p class="text-center">&copy; 2016 Company, Inc.</p>
       </footer>
-    </div> 
 <!-- /container -->
 
 

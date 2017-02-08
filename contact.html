@@ -34,13 +34,27 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index.html">Home</a></li>
-            <li class=""><a href="about.html">About Us</a></li>
+                      <li class=""><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="about_us.html">Who We Are</a></li>
+                <li><a href="about_history.html">Our History</a></li>
+                <li><a href="about_timeline.html">Historic Timeline</a></li>
+                <li><a href="about_board.html">Board Members</a></li>
+              </ul>
+            </li>
             <li class=""><a href="what_we_offer.html">What We Offer</a></li>
-            <li class=""><a href="clients.html">Our Clients</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Clients<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="clients_gallery.html">Photo Gallery</a></li>
+                <li><a href="clients_testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
             <li class=""><a href="get_involved.html">Get Involved</a></li>
             <li class=""><a href="calendar.html">Calendar</a></li>
-            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li class=""><a href="contact.html">Contact Us</a></li>
           </ul>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Sign Up</a></button></p>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Volunteer</a></button></p>
@@ -54,23 +68,48 @@
     <div class="jumbotron">
       <div class="container">
       <img class="<img-responsive center-block imagelogo" src="img/main logo.png">
-<!--         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
       </div>
+    </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+  <form class="col-xs-6 col-md-6">
+  <h4 class="orangettt">Leave us a message</h4>
+  <div class="form-group row">
+  <label for="example-text-input" class="col-2 col-form-label">Name</label>
+  <div class="col-10">
+    <input class="form-control" type="text" value="" id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+  <div class="col-10">
+    <input class="form-control" type="email" value="" id="example-email-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-2 col-form-label">Phone Number</label>
+  <div class="col-10">
+    <input class="form-control" type="tel" value="" id="example-tel-input">
+  </div>
+  </div>
+  <div class="form-group row">
+    <label for="exampleTextarea">Your Message</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
-      <hr>
-
-      <footer class="text-center">
-        <p>2015 W. Western Ave, Ste 233. South Bend, IN 46619 
-        <br>Phone: 574-234-1169     Fax: 574-234-1160
-        <br>Email: info@childrensdispensary.org</p>
-        <p class="text-center">&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> 
-    </div><!-- /container -->
+<div class="card hidden-sm col-md-6 hidden-xs col-sm-6 col-lg-6" style="">
+  <div class="card-block">
+    <h4 class="card-title orangettt">Children's Dispensary</h4>
+    <p class="card-text">2015 W. Western Ave. <br> Suite 233 <br> South Bend, IN 46619</p>
+    <p class="card-text">Phone: (574) 234-1169 <br> Fax: (5714) 234-1160</p>
+    <p class="card-text">Email: info@childrendispensary.org</p>
+    <p class="card-text">Office Hours: Monday - Thursday: 10:00AM - 3:00PM</p>
+  </div>
+</div>  
+</div>
 
 
     <!-- Bootstrap core JavaScript

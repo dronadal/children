@@ -21,7 +21,7 @@
 
   <body>
 
-    <nav class="orange navbar navbar-inverse navbar-fixed-top">
+   <nav class="orange navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,13 +34,27 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index.html">Home</a></li>
-            <li class=""><a href="about.html">About Us</a></li>
-            <li><a href="what_we_offer.html">What We Offer</a></li>
-            <li><a href="clients.html">Our Clients</a></li>
-            <li><a href="get_involved.html">Get Involved</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+                      <li class=""><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="about_us.html">Who We Are</a></li>
+                <li><a href="about_history.html">Our History</a></li>
+                <li><a href="about_timeline.html">Historic Timeline</a></li>
+                <li><a href="about_board.html">Board Members</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="what_we_offer.html">What We Offer</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Clients<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="clients_gallery.html">Photo Gallery</a></li>
+                <li><a href="clients_testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="get_involved.html">Get Involved</a></li>
+            <li class=""><a href="calendar.html">Calendar</a></li>
+            <li class=""><a href="contact.html">Contact Us</a></li>
           </ul>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Sign Up</a></button></p>
               <p class="hidden-xs hidden-md navbar-text navbar-right" id="house"><a button class="btn btn-primary" type="button" id="house" data-toggle="modal" data-target="#myModal">Volunteer</a></button></p>
@@ -48,6 +62,7 @@
           </div><!--/.nav-collapse -->
       </div>
     </nav>
+
 
     <div class='container'>
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -60,26 +75,7 @@
 
     <div class="container">
       <div class="row">
-              <div class="col-xs-3 aidz">
-    <ul class="nav">
-  <li class="nav aid active">
-    <a class="nav-link" id="active" href="about_us.html">Who We Are</a>
-  </li>
-  <li class="nav-item aid">
-    <a class="nav-link" href="about_history.html">Our History</a>
-  </li>
-  <li class="nav-item aid">
-    <a class="nav-link" href="about_timeline.html">History Timeline</a>
-  </li>
-  <li class="nav-item aid">
-    <a class="nav-link" href="about_board.html">Board Members</a>
-  </li>
-    <li class="nav-item aid">
-    <a class="nav-link" href="about_contact.html">Contact Us</a>
-  </li>
-</ul>
-</div>
-      <div class="col-xs-8">
+      <div class="col-xs-7 col-md-9">
       <div class="card">
   <div class="card-header">
     <h4>Mission Statement</h4>
@@ -89,7 +85,7 @@
   </div>
 </div>
       </div>
-            <div class="col-xs-8">
+            <div class="col-xs-7 col-md-9">
       <div class="card">
   <div class="card-header">
     <h4>Vision Statement</h4>
@@ -99,7 +95,7 @@
   </div>
 </div>
       </div>
-            <div class="col-xs-8">
+            <div class="col-xs-7 col-md-9">
       <div class="card">
   <div class="card-header">
     <h4>Our Goals</h4>
@@ -128,6 +124,7 @@
 
       <hr>
 
+      </div>
       <footer class="text-center">
         <p>2015 W. Western Ave, Ste 233. South Bend, IN 46619 
         <br>Phone: 574-234-1169     Fax: 574-234-1160

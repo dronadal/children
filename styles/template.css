@@ -2,15 +2,23 @@
 @import url(ie10-viewport-bug-workaround.css);
 @import url(jumbotron.css);
 /*
-make boxes with images and link same size!
+make boxes with images and link same size
 buttons to pages
 click on buttons color
-images in board cdenter
+center pix on board
+href number email. calendar events
+click on images
+color dropwdown
+footer 
+paula text li
 
 */
+.form-group {
+  margin-right: 20px; }
+
 .orange {
-  background-color: #ff9933;
-  border-color: #ff9933; }
+  background-color: #bfbfbf;
+  border-color: #bfbfbf; }
 
 .navbar-inverse .navbar-nav > li > a {
   color: white; }
@@ -19,11 +27,11 @@ images in board cdenter
   color: white; }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-  background-color: #e65c00;
+  background-color: #808080;
   color: white; }
 
 .btn-primary {
-  background-color: #ff9933;
+  background-color: #bfbfbf;
   border-color: white; }
 
 .jumbotron {
@@ -41,22 +49,22 @@ img {
     margin-top: 0;
     padding-bottom: 0; } }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-  background-color: #e65c00; }
+  background-color: #808080; }
 
 .navbar-inverse .navbar-toggle {
-  background-color: #ff9933;
+  background-color: #bfbfbf;
   border-color: white; }
 
 .thumbnail {
-  border-color: #ff9933; }
+  border-color: #bfbfbf; }
 
 .btn-primary:hover {
-  color: #fff;
-  background-color: #e65c00;
+  color: white;
+  background-color: #808080;
   border-color: white; }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-  color: #ffd699; }
+  color: #808080; }
 
 .divimg {
   padding-left: 10px;
@@ -64,7 +72,7 @@ img {
   padding-right: 10px; }
 
 footer {
-  background-color: #ff9933;
+  background-color: #bfbfbf;
   color: white; }
 
 .card-block {
@@ -77,15 +85,15 @@ footer {
   margin-bottom: 10px; }
 
 .oranget {
-  color: #ff9933;
+  color: #bfbfbf;
   padding-bottom: 20px; }
 
 .orangettt {
-  color: #ff9933;
+  color: #bfbfbf;
   align: center; }
 
 .card-header {
-  color: #ff9933; }
+  color: #bfbfbf; }
 
 .house {
   float: right; }
@@ -93,17 +101,17 @@ footer {
 .nav > li > a:focus, .nav > li > a:hover {
   text-decoration: none;
   color: white;
-  background-color: #ff9933;
+  background-color: #bfbfbf;
   border-color: white; }
 
 a:focus, a:hover {
-  color: #ffd699; }
+  color: #bfbfbf; }
 
 .nav-link {
   color: black; }
 
 .active {
-  background-color: #ff9933;
+  background-color: #bfbfbf;
   color: white; }
 
 #active {
@@ -120,7 +128,7 @@ tr.spaceUnder > td {
   padding-top: 1em; }
 
 table, th, td {
-  border-top: 0.10em solid #ffa13d;
+  border-top: 0.10em solid #808080;
   border-left: none;
   border-right: none; }
 
@@ -143,5 +151,13 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+.aidz {
+  float: right; }
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 0px 0 0px;
+  border-bottom: 1px solid #yellow; }
 
 /*# sourceMappingURL=template.css.map */

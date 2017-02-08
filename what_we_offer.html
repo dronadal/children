@@ -20,7 +20,6 @@
   </head>
 
   <body>
-
     <nav class="orange navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -34,10 +33,24 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index.html">Home</a></li>
-            <li class=""><a href="about.html">About Us</a></li>
-            <li class="active"><a href="what_we_offer.html">What We Offer</a></li>
-            <li class=""><a href="clients.html">Our Clients</a></li>
+                      <li class=""><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="about_us.html">Who We Are</a></li>
+                <li><a href="about_history.html">Our History</a></li>
+                <li><a href="about_timeline.html">Historic Timeline</a></li>
+                <li><a href="about_board.html">Board Members</a></li>
+              </ul>
+            </li>
+            <li class=""><a href="what_we_offer.html">What We Offer</a></li>
+            <li class="dropdown">
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Clients<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="clients_gallery.html">Photo Gallery</a></li>
+                <li><a href="clients_testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
             <li class=""><a href="get_involved.html">Get Involved</a></li>
             <li class=""><a href="calendar.html">Calendar</a></li>
             <li class=""><a href="contact.html">Contact Us</a></li>
@@ -58,11 +71,23 @@
       </div>
     </div>
 
+
     <div class="container">
+        <div class="row center">
+  <h4 class="center oranget">History of the Children’s Dispensary & Hospital Association, Inc</h4>
+  <p>“A Place To Be Me” programming by Children’s Dispensary, is designed to improve the quality of life for children and their families. We believe that children with disabilities are entitled to full life experiences and our activities are designed to benefit each child we serve emotionally, physically and socially. Children in our programs receive the level of attention and support they need to fully engage in and experience a variety of healthy activities.</br>
+  Our approach provides appropriate play and learning experiences in settings that help develop social skills, a network of friends and a sense of community. While we help participants to learn new skills, develop independence and improve their physical health, the over-riding purpose of our programming is to provide a place where special needs children can just be themselves without the barriers that may exist in traditional settings.</p>
+  <p>Programming is offered year round after school on weekends and during summer.</p>
+  <p>Check our <strong>calendar</strong> for dates of activities and events.</p>
+  <p><strong>Enroll</strong> in activities or events online. </p>
+</div>
+</div>
+</div>
       <!-- Example row of columns -->
 
       <hr>
 
+      </div>
       <footer class="text-center">
         <p>2015 W. Western Ave, Ste 233. South Bend, IN 46619 
         <br>Phone: 574-234-1169     Fax: 574-234-1160
@@ -70,7 +95,8 @@
         <p class="text-center">&copy; 2016 Company, Inc.</p>
       </footer>
     </div> 
-    </div><!-- /container -->
+      </body>
+<!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -81,5 +107,4 @@
     <script src="scripts/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="scripts/ie10.js"></script>
-  </body>
 </html>
