@@ -9,10 +9,10 @@ make boxes with images and link same size
 buttons to pages
 click on buttons color
 center pix on board
+maybe more testimonials? 
+need pictures for page
 href number email. calendar events
-click on images
-color dropwdown
-footer 
+click on images	
 paula text li
 
 */
@@ -138,4 +138,25 @@ table {
     padding-bottom: 9px;
     margin: 0px 0 0px;
     border-bottom: 1px solid #yellow;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #bfbfbf;
+    outline: 0;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #808080;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  color: white;
 }
